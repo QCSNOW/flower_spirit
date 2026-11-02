@@ -1,0 +1,121 @@
+<!-- Fabric 依赖下载清单 -->
+<!-- 下载完后放到 D:\mcmod\mytestmod\temp\dl\ 目录 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Fabric 依赖下载清单</title>
+<style>
+  body { font-family: 'Segoe UI', sans-serif; max-width: 900px; margin: 20px auto; padding: 20px; background: #1a1a2e; color: #eee; }
+  h1 { color: #00d4ff; border-bottom: 2px solid #00d4ff; padding-bottom: 10px; }
+  h2 { color: #ffcc00; margin-top: 30px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th, td { padding: 10px; text-align: left; border-bottom: 1px solid #333; }
+  th { background: #16213e; color: #00d4ff; font-weight: 600; }
+  tr:hover { background: #16213e; }
+  a { color: #4ade80; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #86efac; }
+  .priority-high { color: #ff6b6b; font-weight: bold; }
+  .priority-med { color: #ffd93d; }
+  .size { color: #888; font-size: 0.9em; }
+  .tip { background: #16213e; border-left: 4px solid #00d4ff; padding: 12px 16px; margin: 15px 0; border-radius: 4px; }
+  code { background: #0f3460; padding: 2px 6px; border-radius: 3px; color: #e94560; }
+</style>
+</head>
+<body>
+<h1>🧱 Fabric 1.20.1 依赖下载清单</h1>
+
+<div class="tip">
+  <strong>使用方法：</strong>点击下面的链接在浏览器中下载，下载完成后把文件放到 <code>D:\mcmod\mytestmod\temp\dl\</code> 目录。
+  <br>下载完成后告诉我，我会帮你把它们放到 Gradle 缓存的正确位置。
+</div>
+
+<h2>🔴 第一优先级（构建必需，下完就能跑）</h2>
+<table>
+  <tr><th>包名</th><th>版本</th><th>JAR</th><th>POM</th><th>说明</th></tr>
+  <tr>
+    <td>fabric-loom</td><td>1.4.1</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/fabric-loom/1.4.1/fabric-loom-1.4.1.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/fabric-loom/1.4.1/fabric-loom-1.4.1.pom" download>POM</a></td>
+    <td class="priority-high">构建核心插件</td>
+  </tr>
+  <tr>
+    <td>mercury</td><td>0.4.0</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/mercury/0.4.0/mercury-0.4.0.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/mercury/0.4.0/mercury-0.4.0.pom" download>POM</a></td>
+    <td class="priority-high">代码混淆工具</td>
+  </tr>
+  <tr>
+    <td>tiny-remapper</td><td>0.8.9</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/tiny-remapper/0.8.9/tiny-remapper-0.8.9.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/tiny-remapper/0.8.9/tiny-remapper-0.8.9.pom" download>POM</a></td>
+    <td class="priority-high">反映射工具</td>
+  </tr>
+  <tr>
+    <td>fabric-loader</td><td>0.15.11</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.pom" download>POM</a></td>
+    <td class="priority-high">Fabric 加载器</td>
+  </tr>
+  <tr>
+    <td>yarn (v2)</td><td>1.20.1+build.1</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/yarn/1.20.1+build.1/yarn-1.20.1+build.1-v2.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/yarn/1.20.1+build.1/yarn-1.20.1+build.1.pom" download>POM</a></td>
+    <td class="priority-high">映射表（~3MB）</td>
+  </tr>
+  <tr>
+    <td>fabric-api</td><td>0.92.1+1.20.1</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.92.1+1.20.1/fabric-api-0.92.1+1.20.1.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.92.1+1.20.1/fabric-api-0.92.1+1.20.1.pom" download>POM</a></td>
+    <td class="priority-high">Fabric API 总包</td>
+  </tr>
+  <tr>
+    <td>intermediary</td><td>1.20.1</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.pom" download>POM</a></td>
+    <td class="priority-med">中间映射表</td>
+  </tr>
+</table>
+
+<h2>🟡 第二优先级（Loom 运行依赖）</h2>
+<table>
+  <tr><th>包名</th><th>版本</th><th>JAR</th><th>POM</th><th>说明</th></tr>
+  <tr>
+    <td>stitch</td><td>0.6.2</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/stitch/0.6.2/stitch-0.6.2.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/stitch/0.6.2/stitch-0.6.2.pom" download>POM</a></td>
+    <td>已缓存</td>
+  </tr>
+  <tr>
+    <td>access-widener</td><td>2.1.0</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.pom" download>POM</a></td>
+    <td>已缓存</td>
+  </tr>
+  <tr>
+    <td>mapping-io</td><td>0.4.2</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/mapping-io/0.4.2/mapping-io-0.4.2.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/mapping-io/0.4.2/mapping-io-0.4.2.pom" download>POM</a></td>
+    <td>已缓存</td>
+  </tr>
+  <tr>
+    <td>lorenz-tiny</td><td>4.0.2</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/lorenz-tiny/4.0.2/lorenz-tiny-4.0.2.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/lorenz-tiny/4.0.2/lorenz-tiny-4.0.2.pom" download>POM</a></td>
+    <td>已缓存</td>
+  </tr>
+  <tr>
+    <td>sponge-mixin</td><td>0.12.5+mixin.0.8.5</td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar" download>JAR</a></td>
+    <td><a href="https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.pom" download>POM</a></td>
+    <td>已缓存</td>
+  </tr>
+</table>
+
+<div class="tip">
+  💡 <strong>提示：</strong>先下载第一优先级的 7 个包试试能不能构建成功。如果还缺 fabric-api 的子模块，我再给你列第二波。
+  <br>浏览器下载比命令行快，因为浏览器有连接池和断点续传优化。
+</div>
+
+</body>
+</html>

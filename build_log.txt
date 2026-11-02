@@ -1,0 +1,53 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.4.1
+
+> Task :compileJava
+.\gradlew.bat : D:\mcmod\mytestmod\src\optional\java\com\mytest\firstmod\integration\trinkets\FlowerSpiritAmuletItem.ja
+va:28: ����: world �� Entity ���� private ���ʿ���
+At line:15 char:4358
++ ... d "D:\mcmod\mytestmod" ; .\gradlew.bat build --no-daemon 2>&1 | Tee-O ...
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\mcmod\mytest...private ���ʿ���:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+        if (!entity.world.isClient && entity.age % 50 == 0) {
+                   ^
+D:\mcmod\mytestmod\src\optional\java\com\mytest\firstmod\integration\trinkets\FlowerSpiritAmuletItem.java:37: ����: wor
+ld �� Entity ���� private ���ʿ���
+        if (!entity.world.isClient) {
+                   ^
+D:\mcmod\mytestmod\src\optional\java\com\mytest\firstmod\integration\trinkets\FlowerSpiritAmuletItem.java:45: ����: wor
+ld �� Entity ���� private ���ʿ���
+        if (!entity.world.isClient) {
+                   ^
+D:\mcmod\mytestmod\src\optional\java\com\mytest\firstmod\integration\trinkets\FlowerSpiritRingItem.java:28: ����: world
+ �� Entity ���� private ���ʿ���
+        if (!entity.world.isClient && entity.age % 20 == 0) {
+                   ^
+D:\mcmod\mytestmod\src\optional\java\com\mytest\firstmod\integration\trinkets\FlowerSpiritRingItem.java:37: ����: world
+ �� Entity ���� private ���ʿ���
+        if (!entity.world.isClient) {
+                   ^
+D:\mcmod\mytestmod\src\optional\java\com\mytest\firstmod\integration\trinkets\FlowerSpiritRingItem.java:45: ����: world
+ �� Entity ���� private ���ʿ���
+        if (!entity.world.isClient) {
+                   ^
+6 ������
+
+> Task :compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 14s
+1 actionable task: 1 executed

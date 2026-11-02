@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "XYX",
+    "#X#"
+  ],
+  "key": {
+    "#": {"item": "minecraft:stick"},
+    "X": {"item": "minecraft:redstone"},
+    "Y": {"item": "minecraft:iron_ingot"}
+  },
+  "result": {
+    "item": "firstmod:flower_spirit_core",
+    "count": 1
+  }
+}

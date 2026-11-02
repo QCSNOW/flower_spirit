@@ -1,0 +1,86 @@
+﻿Initialized native services in: C:\Users\Administrato\.gradle\native
+Initialized jansi services in: C:\Users\Administrato\.gradle\native
+Received JVM installation metadata from 'C:\Users\Administrato\.jdks\corretto-18.0.2': {JAVA_HOME=C:\Users\Administrato\.jdks\corretto-18.0.2, JAVA_VERSION=18.0.2, JAVA_VENDOR=Amazon.com Inc., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=18.0.2+9-FR, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=18.0.2+9-FR, VM_VENDOR=Amazon.com Inc., OS_ARCH=amd64}
+Removing 0 daemon stop events from registry
+Starting a Gradle Daemon, 5 busy Daemons could not be reused, use --status for details
+Starting process 'Gradle build daemon'. Working directory: C:\Users\Administrato\.gradle\daemon\8.3 Command: C:\Users\Administrato\.jdks\corretto-18.0.2\bin\java.exe --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -Xmx2G -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -cp C:\Users\Administrato\.gradle\wrapper\dists\gradle-8.3-bin\jxzymdit5qpf9apmda2lzam4\gradle-8.3\lib\gradle-launcher-8.3.jar -javaagent:C:\Users\Administrato\.gradle\wrapper\dists\gradle-8.3-bin\jxzymdit5qpf9apmda2lzam4\gradle-8.3\lib\agents\gradle-instrumentation-agent-8.3.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.3
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 1.122 secs.
+The client will now receive all logging from the daemon (pid: 24152). The daemon log file: C:\Users\Administrato\.gradle\daemon\8.3\daemon-24152.out.log
+Starting build in new daemon [memory: 2 GiB]
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Using 20 worker leases.
+Received JVM installation metadata from 'C:\Users\Administrato\.jdks\corretto-18.0.2': {JAVA_HOME=C:\Users\Administrato\.jdks\corretto-18.0.2, JAVA_VERSION=18.0.2, JAVA_VENDOR=Amazon.com Inc., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=18.0.2+9-FR, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=18.0.2+9-FR, VM_VENDOR=Amazon.com Inc., OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [D:\mcmod\mytestmod] as hierarchies to watch
+File system watching is active
+Compiling initialization script 'C:\Users\Administrato\.gradle\init.gradle' using SubsetScriptTransformer.
+Compiling initialization script 'C:\Users\Administrato\.gradle\init.gradle' using BuildScriptTransformer.
+Starting Build
+Settings evaluated using settings file 'D:\mcmod\mytestmod\settings.gradle'.
+Projects loaded. Root project using build file 'D:\mcmod\mytestmod\build.gradle'.
+Included projects: [root project 'firstmod']
+
+> Configure project :
+Evaluating root project 'firstmod' using build file 'D:\mcmod\mytestmod\build.gradle'.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Resource missing. [HTTP HEAD: https://mirrors.huaweicloud.com/repository/maven/fabric-loom/fabric-loom.gradle.plugin/1.4.1/fabric-loom.gradle.plugin-1.4.1.pom]
+Resource missing. [HTTP HEAD: https://maven.aliyun.com/repository/gradle-plugin/fabric-loom/fabric-loom.gradle.plugin/1.4.1/fabric-loom.gradle.plugin-1.4.1.pom]
+Resource missing. [HTTP HEAD: https://mirrors.cloud.tencent.com/nexus/repository/gradle-plugins/fabric-loom/fabric-loom.gradle.plugin/1.4.1/fabric-loom.gradle.plugin-1.4.1.pom]
+Resource missing. [HTTP HEAD: https://bmclapi2.bangbang93.com/maven/fabric-loom/fabric-loom.gradle.plugin/1.4.1/fabric-loom.gradle.plugin-1.4.1.pom]
+Cached resource https://maven.fabricmc.net/fabric-loom/fabric-loom.gradle.plugin/1.4.1/fabric-loom.gradle.plugin-1.4.1.pom is up-to-date (lastModified: Tue Sep 26 16:37:48 CST 2023).
+Resource missing. [HTTP HEAD: https://maven.fabricmc.net/fabric-loom/fabric-loom.gradle.plugin/1.4.1/fabric-loom.gradle.plugin-1.4.1.jar]
+The configuration :classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Resource missing. [HTTP HEAD: https://mirrors.huaweicloud.com/repository/maven/net/fabricmc/fabric-loom/1.4.1/fabric-loom-1.4.1.pom]
+Resource missing. [HTTP HEAD: https://maven.aliyun.com/repository/gradle-plugin/net/fabricmc/fabric-loom/1.4.1/fabric-loom-1.4.1.pom]
+Resource missing. [HTTP HEAD: https://mirrors.cloud.tencent.com/nexus/repository/gradle-plugins/net/fabricmc/fabric-loom/1.4.1/fabric-loom-1.4.1.pom]
+Resource missing. [HTTP HEAD: https://bmclapi2.bangbang93.com/maven/net/fabricmc/fabric-loom/1.4.1/fabric-loom-1.4.1.pom]
+Cached resource https://maven.fabricmc.net/net/fabricmc/fabric-loom/1.4.1/fabric-loom-1.4.1.pom is up-to-date (lastModified: Tue Sep 26 16:37:59 CST 2023).
+Cached resource https://maven.fabricmc.net/net/fabricmc/fabric-loom/1.4.1/fabric-loom-1.4.1.module is up-to-date (lastModified: Tue Sep 26 16:38:02 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.pom is up-to-date (lastModified: Tue Aug 01 06:09:43 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.7.0/kotlinx-metadata-jvm-0.7.0.pom is up-to-date (lastModified: Tue Jul 25 05:38:28 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/ow2/asm/asm-util/9.5/asm-util-9.5.pom is up-to-date (lastModified: Tue Apr 04 11:04:03 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.pom is up-to-date (lastModified: Tue Apr 04 11:04:04 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.pom is up-to-date (lastModified: Thu Mar 30 12:49:25 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom is up-to-date (lastModified: Thu Mar 30 12:49:35 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/ow2/asm/asm/9.5/asm-9.5.pom is up-to-date (lastModified: Mon Mar 27 19:56:08 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.pom is up-to-date (lastModified: Thu Jul 24 17:14:57 CST 2025).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/commons-io/commons-io/2.13.0/commons-io-2.13.0.pom is up-to-date (lastModified: Thu Jun 08 10:48:11 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/net/fabricmc/mapping-io/0.4.2/mapping-io-0.4.2.pom is up-to-date (lastModified: Sat May 13 22:25:00 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/google/code/gson/gson/2.10.1/gson-2.10.1.pom is up-to-date (lastModified: Sat Jan 07 21:21:21 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.pom is up-to-date (lastModified: Fri Dec 03 04:49:21 CST 2021).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/google/guava/guava-parent/32.1.2-jre/guava-parent-32.1.2-jre.pom is up-to-date (lastModified: Tue Aug 01 06:09:57 CST 2023).
+Resource missing. [HTTP HEAD: https://mirrors.huaweicloud.com/repository/maven/net/fabricmc/tiny-remapper/0.8.9/tiny-remapper-0.8.9.pom]
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/ow2/ow2/1.5.1/ow2-1.5.1.pom is up-to-date (lastModified: Sun Mar 06 11:40:54 CST 2022).
+Resource missing. [HTTP HEAD: https://mirrors.huaweicloud.com/repository/maven/net/fabricmc/mercury/0.4.0/mercury-0.4.0.pom]
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/fasterxml/jackson/jackson-base/2.15.2/jackson-base-2.15.2.pom is up-to-date (lastModified: Thu Jul 24 18:24:28 CST 2025).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/apache/commons/commons-parent/58/commons-parent-58.pom is up-to-date (lastModified: Wed May 24 22:25:15 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/google/code/gson/gson-parent/2.10.1/gson-parent-2.10.1.pom is up-to-date (lastModified: Sat Jan 07 21:21:20 CST 2023).
+Resource missing. [HTTP HEAD: https://mirrors.huaweicloud.com/repository/maven/net/fabricmc/stitch/0.6.2/stitch-0.6.2.pom]
+Resource missing. [HTTP HEAD: https://mirrors.huaweicloud.com/repository/maven/net/fabricmc/lorenz-tiny/4.0.2/lorenz-tiny-4.0.2.pom]
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.module is up-to-date (lastModified: Wed Aug 02 00:33:00 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/fasterxml/jackson/jackson-bom/2.15.2/jackson-bom-2.15.2.pom is up-to-date (lastModified: Thu Jul 24 18:25:57 CST 2025).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/apache/apache/29/apache-29.pom is up-to-date (lastModified: Thu Dec 15 22:06:51 CST 2022).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/fasterxml/jackson/jackson-parent/2.15/jackson-parent-2.15.pom is up-to-date (lastModified: Thu Jul 24 18:27:33 CST 2025).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom is up-to-date (lastModified: Wed Apr 26 15:17:28 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/fasterxml/oss-parent/50/oss-parent-50.pom is up-to-date (lastModified: Mon Mar 06 21:06:54 CST 2023).
+Resource missing. [HTTP HEAD: https://maven.aliyun.com/repository/gradle-plugin/net/fabricmc/tiny-remapper/0.8.9/tiny-remapper-0.8.9.pom]
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.module is up-to-date (lastModified: Thu Apr 27 22:40:19 CST 2023).
+Resource missing. [HTTP HEAD: https://maven.aliyun.com/repository/gradle-plugin/net/fabricmc/stitch/0.6.2/stitch-0.6.2.pom]
+Resource missing. [HTTP HEAD: https://maven.aliyun.com/repository/gradle-plugin/net/fabricmc/lorenz-tiny/4.0.2/lorenz-tiny-4.0.2.pom]
+Resource missing. [HTTP HEAD: https://maven.aliyun.com/repository/gradle-plugin/net/fabricmc/mercury/0.4.0/mercury-0.4.0.pom]
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/junit/junit-bom/5.9.2/junit-bom-5.9.2.pom is up-to-date (lastModified: Tue Jan 10 19:38:32 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/org/junit/junit-bom/5.9.2/junit-bom-5.9.2.module is up-to-date (lastModified: Wed Jan 11 18:48:25 CST 2023).
+Cached resource https://mirrors.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.module is up-to-date (lastModified: Thu Jul 24 17:14:56 CST 2025).
+Resource missing. [HTTP HEAD: https://mirrors.cloud.tencent.com/nexus/repository/gradle-plugins/net/fabricmc/tiny-remapper/0.8.9/tiny-remapper-0.8.9.pom]
+Resource missing. [HTTP HEAD: https://mirrors.cloud.tencent.com/nexus/repository/gradle-plugins/net/fabricmc/lorenz-tiny/4.0.2/lorenz-tiny-4.0.2.pom]
+Resource missing. [HTTP HEAD: https://mirrors.cloud.tencent.com/nexus/repository/gradle-plugins/net/fabricmc/stitch/0.6.2/stitch-0.6.2.pom]
+Resource missing. [HTTP HEAD: https://mirrors.cloud.tencent.com/nexus/repository/gradle-plugins/net/fabricmc/mercury/0.4.0/mercury-0.4.0.pom]
+Resource missing. [HTTP HEAD: https://bmclapi2.bangbang93.com/maven/net/fabricmc/mercury/0.4.0/mercury-0.4.0.pom]

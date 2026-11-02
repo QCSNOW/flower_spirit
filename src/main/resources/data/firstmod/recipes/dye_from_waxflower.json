@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:waxflower"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_dye",
+    "count": 1
+  }
+}

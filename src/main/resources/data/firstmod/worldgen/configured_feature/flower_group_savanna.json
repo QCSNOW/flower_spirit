@@ -1,0 +1,69 @@
+﻿{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:gerbera"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:waxflower"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:pincushion"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:king_protea"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:gomphrena"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:celosia"
+        }
+      }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

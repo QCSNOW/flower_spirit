@@ -1,0 +1,26 @@
+﻿Starting a Gradle Daemon, 1 busy and 1 incompatible and 2 stopped Daemons could not be reused, use --status for details
+
+> Configure project :
+Fabric Loom: 1.4.1
+.\gradlew.bat : 
+At line:15 char:2941
++ ... ath" ; cd "D:\mcmod\mytestmod" ; .\gradlew.bat runClient 2>&1 | Out-F ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'firstmod'.
+> Failed to notify project evaluation listener.
+   > Failed to setup Minecraft, java.io.UncheckedIOException: Failed download after 3 attempts
+   > Failed download after 3 attempts
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5s

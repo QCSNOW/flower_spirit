@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "RGR",
+    "#C#"
+  ],
+  "key": {
+    "#": {"item": "minecraft:iron_ingot"},
+    "B": {"tag": "minecraft:buttons"},
+    "R": {"item": "minecraft:redstone"},
+    "G": {"item": "minecraft:glass"},
+    "C": {"item": "firstmod:flower_spirit_core"}
+  },
+  "result": {
+    "item": "firstmod:flower_spirit_crafter",
+    "count": 1
+  }
+}

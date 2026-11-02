@@ -1,0 +1,42 @@
+pluginManagement {
+	repositories {
+		// Fabric 官方源放第一个 —— 减少 404 等待，直接从源头拿
+		maven { url = "https://maven.fabricmc.net/" }
+		// 阿里云 Gradle 插件镜像
+		maven { url = "https://maven.aliyun.com/repository/gradle-plugin" }
+		gradlePluginPortal()
+	}
+}
+
+dependencyResolutionManagement {
+	repositories {
+		// ========== 优先级 1：阿里云公共库（通用 Java 包，国内满速） ==========
+		maven {
+			url = "https://maven.aliyun.com/repository/public"
+			name = "AliyunPublic"
+		}
+
+		// ========== 优先级 2：FabricMC 官方源（Fabric 专属包） ==========
+		maven {
+			url = "https://maven.fabricmc.net/"
+			name = "FabricMC"
+		}
+
+		// ========== 优先级 3：Modrinth（Mod Menu 等模组） ==========
+		maven {
+			url = "https://api.modrinth.com/maven"
+			name = "Modrinth"
+		}
+
+		// ========== 优先级 4：Terraformers（Cloth Config 等） ==========
+		maven {
+			url = "https://maven.terraformersmc.com/"
+			name = "Terraformers"
+		}
+
+		// ========== 优先级 5：Maven Central 兜底 ==========
+		mavenCentral()
+	}
+}
+
+rootProject.name = "firstmod"

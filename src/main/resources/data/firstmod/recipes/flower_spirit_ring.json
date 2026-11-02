@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "I I",
+    " I "
+  ],
+  "key": {
+    "C": {"item": "firstmod:flower_crystal"},
+    "I": {"item": "minecraft:iron_ingot"}
+  },
+  "result": {
+    "item": "firstmod:flower_spirit_ring"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:clematis"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_dye",
+    "count": 1
+  }
+}

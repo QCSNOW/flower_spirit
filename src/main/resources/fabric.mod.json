@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "firstmod",
+	"version": "${version}",
+	"name": "繁花物语",
+	"description": "繁花物语模组，添加花精系列工具、盔甲与特殊再生效果",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/firstmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mytest.firstmod.Firstmod"
+		],
+		"client": [
+			"com.mytest.firstmod.client.FirstmodClient"
+		],
+		"fabric-datagen": [
+			"com.mytest.firstmod.datagen.ModDataGenerator"
+		],
+		"modmenu": [
+			"com.mytest.firstmod.integration.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"firstmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"trinkets": ">=3.7.0"
+	},
+	"suggests": {
+		"cloth-config": ">=11.0.0",
+		"modmenu": ">=7.0.0"
+	}
+}

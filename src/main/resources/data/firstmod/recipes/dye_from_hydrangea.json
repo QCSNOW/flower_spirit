@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:hydrangea"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_dye",
+    "count": 1
+  }
+}

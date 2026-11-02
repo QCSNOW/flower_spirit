@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "firstmod:block/bells_of_ireland"
+  }
+}

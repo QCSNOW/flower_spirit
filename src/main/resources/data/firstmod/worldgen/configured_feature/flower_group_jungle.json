@@ -1,0 +1,63 @@
+﻿{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:gloriosa"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:oncidium"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:dancing_lady"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:phalaenopsis"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:dendrobium"
+        }
+      }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

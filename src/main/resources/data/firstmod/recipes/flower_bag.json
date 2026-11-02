@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "LFL",
+    " L "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "F": {
+      "tag": "minecraft:flowers"
+    }
+  },
+  "result": {
+    "item": "firstmod:flower_bag",
+    "count": 1
+  }
+}

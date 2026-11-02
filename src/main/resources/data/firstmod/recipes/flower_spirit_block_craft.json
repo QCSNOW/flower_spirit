@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {"item":"firstmod:flower_spirit_ingot"}
+  },
+  "result": {
+    "item": "firstmod:flower_spirit_block"
+  }
+}

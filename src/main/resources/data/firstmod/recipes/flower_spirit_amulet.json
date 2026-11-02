@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "C C",
+    " D "
+  ],
+  "key": {
+    "I": {"item": "firstmod:flower_spirit_ingot"},
+    "C": {"item": "minecraft:chain"},
+    "D": {"item": "firstmod:flower_crystal"}
+  },
+  "result": {
+    "item": "firstmod:flower_spirit_amulet"
+  }
+}

@@ -1,0 +1,135 @@
+﻿{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:lisianthus"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:carnation"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:dahlia"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:gerbera"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:ping_pong_chrysanthemum"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:firework_chrysanthemum"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:trachymene"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:ranunculus"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:anemone"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:alstroemeria"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:chamomile"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:baby_breath"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:gomphrena"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:celosia"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:aster"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:bells_of_ireland"
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "Name": "firstmod:lupine"
+        }
+      }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A#A",
+    "#D#",
+    "A#A"
+  ],
+  "key": {
+    "A": {"item": "minecraft:amethyst_shard"},
+    "#": {"item": "firstmod:flower_spirit"},
+    "D": {"item": "minecraft:diamond"}
+  },
+  "result": {
+    "item": "firstmod:flower_crystal"
+  }
+}

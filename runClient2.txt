@@ -1,0 +1,890 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.4.1
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :generateDLIConfig
+> Task :generateLog4jConfig
+> Task :generateRemapClasspath UP-TO-DATE
+> Task :configureLaunch
+Forcing downloading C:\Users\Administrato\.gradle\caches\fabric-loom\assets\objects\8b\8b0c151ad0b2ef252ce28f562e036201a51959f8 as existing lock file was found. This may happen if the gradle build was forcefully canceled.
+Forcing downloading C:\Users\Administrato\.gradle\caches\fabric-loom\assets\objects\c6\c631a01b5cb9ef975ddb4af938e3fe96651b0720 as existing lock file was found. This may happen if the gradle build was forcefully canceled.
+Forcing downloading C:\Users\Administrato\.gradle\caches\fabric-loom\assets\objects\db\dbf19a5b95eb31315a6473bd9f8f2060f040e4c2 as existing lock file was found. This may happen if the gradle build was forcefully canceled.
+Forcing downloading C:\Users\Administrato\.gradle\caches\fabric-loom\assets\objects\6e\6e40ab0e90bb7897af26901371a98cb4deb09ffc as existing lock file was found. This may happen if the gradle build was forcefully canceled.
+Forcing downloading C:\Users\Administrato\.gradle\caches\fabric-loom\assets\objects\f9\f98038e0294203f333ae3733a2b2b868b3eb29ac as existing lock file was found. This may happen if the gradle build was forcefully canceled.
+Forcing downloading C:\Users\Administrato\.gradle\caches\fabric-loom\assets\objects\a4\a42bb44bf03c6fb98a8080bbfe94e8bdc3eb1a8d as existing lock file was found. This may happen if the gradle build was forcefully canceled.
+Forcing downloading C:\Users\Administrato\.gradle\caches\fabric-loom\assets\objects\4b\4b8adff22c2768fd50d860f41c6d82c5ac86d7e8 as existing lock file was found. This may happen if the gradle build was forcefully canceled.
+Forcing downloading C:\Users\Administrato\.gradle\caches\fabric-loom\assets\objects\e4\e4517d17aee0ab65dcd6354a0f7486b6c799d30a as existing lock file was found. This may happen if the gradle build was forcefully canceled.
+> Task :downloadAssets
+> Task :configureClientLaunch
+
+> Task :runClient
+[34m[16:43:36][m [32m[main/INFO][m [36m(FabricLoader/GameProvider)[m [0mLoading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[m[34m[16:43:37][m [33m[ForkJoinPool-1-worker-1/WARN][m [36m(FabricLoader/Metadata)[m [0mMod firstmod uses the version unspecified which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'unspecified'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[m[34m[16:43:37][m [32m[main/INFO][m [36m(FabricLoader)[m [0mLoading 59 mods:
+	- fabric-api 0.92.1+1.20.1
+	- fabric-api-base 0.4.31+1802ada577
+	- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	- fabric-biome-api-v1 13.0.13+1802ada577
+	- fabric-block-api-v1 1.0.11+1802ada577
+	- fabric-block-view-api-v2 1.0.1+1802ada577
+	- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	- fabric-client-tags-api-v1 1.1.2+1802ada577
+	- fabric-command-api-v1 1.2.34+f71b366f77
+	- fabric-command-api-v2 2.2.13+1802ada577
+	- fabric-commands-v0 0.2.51+df3654b377
+	- fabric-containers-v0 0.1.64+df3654b377
+	- fabric-content-registries-v0 4.0.11+1802ada577
+	- fabric-convention-tags-v1 1.5.5+1802ada577
+	- fabric-crash-report-info-v1 0.2.19+1802ada577
+	- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	- fabric-data-generation-api-v1 12.3.4+1802ada577
+	- fabric-dimensions-v1 2.1.54+1802ada577
+	- fabric-entity-events-v1 1.6.0+1c78457f77
+	- fabric-events-interaction-v0 0.6.2+1802ada577
+	- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	- fabric-game-rule-api-v1 1.0.40+1802ada577
+	- fabric-gametest-api-v1 1.2.13+1802ada577
+	- fabric-item-api-v1 2.1.28+1802ada577
+	- fabric-item-group-api-v1 4.0.12+1802ada577
+	- fabric-key-binding-api-v1 1.0.37+1802ada577
+	- fabric-keybindings-v0 0.2.35+df3654b377
+	- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	- fabric-loot-api-v2 1.2.1+1802ada577
+	- fabric-loot-tables-v1 1.1.45+9e7660c677
+	- fabric-message-api-v1 5.1.9+1802ada577
+	- fabric-mining-level-api-v1 2.1.50+1802ada577
+	- fabric-model-loading-api-v1 1.0.3+1802ada577
+	- fabric-models-v0 0.4.2+9386d8a777
+	- fabric-networking-api-v1 1.3.11+1802ada577
+	- fabric-networking-v0 0.3.51+df3654b377
+	- fabric-object-builder-api-v1 11.1.3+1802ada577
+	- fabric-particles-v1 1.1.2+1802ada577
+	- fabric-recipe-api-v1 1.0.21+1802ada577
+	- fabric-registry-sync-v0 2.3.3+1802ada577
+	- fabric-renderer-api-v1 3.2.1+1802ada577
+	- fabric-renderer-indigo 1.5.1+1802ada577
+	- fabric-renderer-registries-v1 3.2.46+df3654b377
+	- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	- fabric-rendering-v0 1.1.49+df3654b377
+	- fabric-rendering-v1 3.0.8+1802ada577
+	- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	- fabric-resource-loader-v0 0.11.10+1802ada577
+	- fabric-screen-api-v1 2.0.8+1802ada577
+	- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	- fabric-sound-api-v1 1.0.13+1802ada577
+	- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.15.11
+	- firstmod unspecified
+	- java 18
+	- minecraft 1.20.1
+	- mixinextras 0.3.5
+[m[34m[16:43:37][m [32m[main/INFO][m [36m(FabricLoader/Mixin)[m [0mSpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Administrato/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[m[34m[16:43:37][m [32m[main/INFO][m [36m(FabricLoader/Mixin)[m [0mLoaded Fabric development mappings for mixin remapper!
+[m[34m[16:43:37][m [32m[main/INFO][m [36m(FabricLoader/Mixin)[m [0mCompatibility level set to JAVA_16
+[m[34m[16:43:37][m [32m[main/INFO][m [36m(FabricLoader/Mixin)[m [0mCompatibility level set to JAVA_17
+[m[34m[16:43:40][m [32m[main/INFO][m [36m(FabricLoader/MixinExtras|Service)[m [0mInitializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[m[34m[16:43:47][m [32m[Datafixer Bootstrap/INFO][m [36m(Minecraft)[m [0m188 Datafixer optimizations took 173 milliseconds
+[m[34m[16:43:51][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mEnvironment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[m[34m[16:43:51][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mSetting user: Player950
+[m[34m[16:43:52][m [32m[Render thread/INFO][m [36m(firstmod)[m [0m�������13������ϵ����Ʒȫ��ע����ɣ�
+[m[34m[16:43:52][m [32m[Render thread/INFO][m [36m(Indigo)[m [0m[Indigo] Registering Indigo renderer!
+[m[34m[16:43:53][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mBackend library: LWJGL version 3.3.1 SNAPSHOT
+[m[34m[16:43:55][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mReloading ResourceManager: vanilla, fabric (fabric-networking-api-v1, fabric-data-attachment-api-v1, fabric-content-registries-v0, fabric-registry-sync-v0, fabric-key-binding-api-v1, fabric-rendering-data-attachment-v1, fabric-api-lookup-api-v1, fabric-block-api-v1, fabric-client-tags-api-v1, fabric-blockrenderlayer-v1, fabric-transfer-api-v1, fabric-loot-api-v2, fabric-events-lifecycle-v0, fabric-events-interaction-v0, fabric-rendering-v0, fabric-item-group-api-v1, fabric-sound-api-v1, fabric-mining-level-api-v1, fabric-command-api-v2, fabric-model-loading-api-v1, fabric-rendering-fluids-v1, fabric-gametest-api-v1, fabric-entity-events-v1, fabric-renderer-api-v1, fabric-command-api-v1, fabric-object-builder-api-v1, fabric-convention-tags-v1, fabric-screen-handler-api-v1, fabric-lifecycle-events-v1, fabric-models-v0, fabric-renderer-registries-v1, fabric-networking-v0, fabric-loot-tables-v1, fabric-commands-v0, fabricloader, fabric-data-generation-api-v1, fabric-api, fabric-resource-conditions-api-v1, firstmod, fabric-item-api-v1, fabric-renderer-indigo, fabric-rendering-v1, fabric-recipe-api-v1, fabric-crash-report-info-v1, fabric-game-rule-api-v1, fabric-biome-api-v1, fabric-dimensions-v1, fabric-resource-loader-v0, fabric-api-base, fabric-particles-v1, fabric-message-api-v1, fabric-containers-v0, fabric-keybindings-v0, fabric-transitive-access-wideners-v1, fabric-screen-api-v1, fabric-block-view-api-v2)
+[m[34m[16:43:55][m [32m[Worker-Main-2/INFO][m [36m(Minecraft)[m [0mFound unifont_all_no_pua-15.0.06.hex, loading
+[m[34m[16:43:56][m [32m[Realms Notification Availability checker #1/INFO][m [36m(Minecraft)[m [0mCould not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[m[34m[16:43:56][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mMissing sound for event: minecraft:item.goat_horn.play
+[m[34m[16:43:56][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mMissing sound for event: minecraft:entity.goat.screaming.horn_break
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mOpenAL initialized on device OpenAL Soft on ������ (EarPods)
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mSound engine started
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[m[34m[16:43:57][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mShader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[m[34m[16:43:57][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mCreated: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[m[34m[16:45:04][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mAudio device was lost!
+[m[34m[16:45:04][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mMissing sound for event: minecraft:item.goat_horn.play
+[m[34m[16:45:04][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mMissing sound for event: minecraft:entity.goat.screaming.horn_break
+.\gradlew.bat : [ALSOFT] (EE) Failed to get padding: 0x88890004
+At line:15 char:4358
++ ... :\mcmod\mytestmod" ; .\gradlew.bat runClient --no-daemon 2>&1 | Tee-O ...
++                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([ALSOFT] (EE) F...ing: 0x88890004:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[m[34m[16:45:05][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mOpenAL initialized on device OpenAL Soft on ������ (Realtek(R) Audio)
+[m[34m[16:45:05][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mSound engine started
+[m[34m[16:45:05][m [32m[IO-Worker-20/INFO][m [36m(Minecraft)[m [0mSystem default audio device has changed!
+[m[34m[16:45:05][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mMissing sound for event: minecraft:item.goat_horn.play
+[m[34m[16:45:05][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mMissing sound for event: minecraft:entity.goat.screaming.horn_break
+[m[34m[16:45:05][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mOpenAL initialized on device OpenAL Soft on ������ (Realtek(R) Audio)
+[m[34m[16:45:05][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mSound engine started
+[m[34m[16:45:08][m [32m[IO-Worker-20/INFO][m [36m(Minecraft)[m [0mSystem default audio device has changed!
+[m[34m[16:45:08][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mMissing sound for event: minecraft:item.goat_horn.play
+[m[34m[16:45:08][m [33m[Render thread/WARN][m [36m(Minecraft)[m [0mMissing sound for event: minecraft:entity.goat.screaming.horn_break
+[m[34m[16:45:08][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mOpenAL initialized on device OpenAL Soft on ������ (EarPods)
+[m[34m[16:45:08][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mSound engine started
+[m[34m[16:45:34][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mLoaded 7 recipes
+[m[34m[16:45:34][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mLoaded 1271 advancements
+[m[34m[16:45:34][m [32m[Render thread/INFO][m [36m(BiomeModificationImpl)[m [0mApplied 197 biome modifications to 27 of 64 new biomes in 18.63 ms
+[m[34m[16:45:34][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mStarting integrated minecraft server version 1.20.1
+[m[34m[16:45:34][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mGenerating keypair
+[m[34m[16:45:35][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mPreparing start region for dimension minecraft:overworld
+[m[34m[16:45:37][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0m׼�����������У�0%
+[m[34m[16:45:37][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0m׼�����������У�0%
+[m[34m[16:45:37][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0m׼�����������У�0%
+[m[34m[16:45:37][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0m׼�����������У�0%
+[m[34m[16:45:37][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0m׼�����������У�9%
+[m[34m[16:45:37][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mTime elapsed: 2186 ms
+[m[34m[16:45:38][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mChanging view distance to 12, from 10
+[m[34m[16:45:38][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mChanging simulation distance to 12, from 0
+[m[34m[16:45:39][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mPlayer950[local:E:38cc970a] logged in with entity id 220 at (52.20665619194287, 71.0, -26.376786134688462)
+[m[34m[16:45:39][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mPlayer950��������Ϸ
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mPlayer950ȡ���˽���[ʯ��ʱ��]
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mPlayer950ȡ���˽���[�ⲻ������ô��]
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mPlayer950ȡ���˽���[��Ӳ��]
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫ��ë x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:45:40][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:40][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0m[System] [CHAT] Player950ȡ���˽���[ʯ��ʱ��]
+[m[34m[16:45:40][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0m[System] [CHAT] Player950ȡ���˽���[�ⲻ������ô��]
+[m[34m[16:45:40][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0m[System] [CHAT] Player950ȡ���˽���[��Ӳ��]
+[m[34m[16:45:40][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mLoaded 113 advancements
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫ��ë x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:45:45][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫ��ë x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:45:50][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫ��ë x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:45:55][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:46:00][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:46:05][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:46:10][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:46:15][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:46:20][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:46:25][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m[MergedInventory] ��� Player950 �� 63 ����Ʒ
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ɫȾɫ���� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x63
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x6
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������ɴ� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Բʯ x44
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ú̿ x4
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ȡ���� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �� x63
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x58
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �Ƿ� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x4
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ڹⲣ�� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x22
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��������̨ x3
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - Ƥ�� x58
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - С�� x14
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ӫ����Ʒչʾ�� x15
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ�� x56
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x3
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x8
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x52
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x61
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ѥ�� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �������� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ؼ� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ͷ�� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��Է x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���ǻ� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ������ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ĵ�� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �����ٺ� x9
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ľ���� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ����ܰ x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��ʯ�� x62
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���� x64
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���¸� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ���޾� x1
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - ��۹� x26
+[m[34m[16:46:30][m [32m[Server thread/INFO][m [36m(firstmod)[m [0m  - �ٺ� x64
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving and pausing game...
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving chunks for level 'ServerLevel[�µ�����]'/minecraft:overworld
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving chunks for level 'ServerLevel[�µ�����]'/minecraft:the_nether
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving chunks for level 'ServerLevel[�µ�����]'/minecraft:the_end
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mPlayer950 lost connection: �����ж�
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mPlayer950�˳�����Ϸ
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mStopping singleplayer server as player logged out
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mStopping server
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving players
+[m[34m[16:46:32][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving worlds
+[m[34m[16:46:33][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving chunks for level 'ServerLevel[�µ�����]'/minecraft:overworld
+[m[34m[16:46:33][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving chunks for level 'ServerLevel[�µ�����]'/minecraft:the_nether
+[m[34m[16:46:33][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mSaving chunks for level 'ServerLevel[�µ�����]'/minecraft:the_end
+[m[34m[16:46:33][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mThreadedAnvilChunkStorage (�µ�����): All chunks are saved
+[m[34m[16:46:33][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[m[34m[16:46:33][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[m[34m[16:46:33][m [32m[Server thread/INFO][m [36m(Minecraft)[m [0mThreadedAnvilChunkStorage: All dimensions are saved
+[m[34m[16:46:34][m [32m[Render thread/INFO][m [36m(Minecraft)[m [0mStopping!
+[mcan't open file for write !
+
+
+BUILD SUCCESSFUL in 3m 40s
+7 actionable tasks: 4 executed, 3 up-to-date

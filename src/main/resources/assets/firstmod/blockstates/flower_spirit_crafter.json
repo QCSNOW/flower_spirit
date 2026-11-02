@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model":"firstmod:block/flower_spirit_crafter","y":0},
+    "facing=south": {"model":"firstmod:block/flower_spirit_crafter","y":180},
+    "facing=east":  {"model":"firstmod:block/flower_spirit_crafter","y":90},
+    "facing=west":  {"model":"firstmod:block/flower_spirit_crafter","y":270}
+  }
+}
