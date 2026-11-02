@@ -42,3 +42,4 @@ temp/
 build*.txt
 datagen*.txt
 err.txt
+*.exe
