@@ -1,9 +1,34 @@
-# firstmod
+# Flower Spirit (繁花物语)
 
-## Setup
+一个独立设计并实现的 Minecraft 1.20.1 Fabric 新玩法模组，围绕花卉采集、加工工具与饰品装备体系展开。
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## 简介
 
-## License
+作为游戏模组开发者，独立完成从架构设计、功能编码、构建调试到多模组兼容的完整流程。使用 Java 17 + Fabric API 搭建模块化工程，按职责分包实现方块、物品、GUI 界面与客户端-服务端网络同步。
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## 技术栈
+
+- **语言**：Java 17
+- **加载器**：Fabric Loader 0.15.x
+- **构建**：Gradle (Fabric Loom)
+- **MC 版本**：1.20.1
+
+## 已实现内容
+
+- 花卉采集系统：多种可采集花卉方块，自然生成于世界
+- 加工工具：从花卉材料制作工具与加工台
+- 饰品装备体系：几十种可装备的饰品与盔甲
+- 功能方块：提供合成与加工交互
+- 客户端-服务端网络同步：保证多人游戏一致性
+- 与主流模组兼容运行
+
+## 构建与运行
+
+1. 安装 JDK 17
+2. 克隆本仓库
+3. 运行 `./gradlew genSources`（首次构建）
+4. 运行 `./gradlew runClient` 启动测试客户端
+
+## 许可证
+
+本项目仅供学习与作品集展示使用，未授权二次发布。
